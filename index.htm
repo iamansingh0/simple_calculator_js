@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/main.js" defer></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calc">
+        <div class="header">
+            <input type="text" class="header-screen" value="0" disabled/>
+        </div>
+        <div class="keypad">
+            <button type="button" class="all-clear function cbtn color-red" value="all-clear">AC</button>
+
+            <div id="grid" class="calculator-keys">
+                <button type="button" value="7" class="grid-item">7</button>
+                <button type="button" value="8" class="grid-item">8</button>
+                <button type="button" value="9" class="grid-item">9</button>
+
+                <button type="button" class="color-orange grid-item special" value="x">&times;</button>
+
+                <button type="button" value="4" class="grid-item">4</button>
+                <button type="button" value="5" class="grid-item">5</button>
+                <button type="button" value="6" class="grid-item">6</button>
+
+                <button type="button" class="color-orange grid-item special" value="÷">&divide;</button>
+
+                <button type="button" value="1" class="grid-item">1</button>
+                <button type="button" value="2" class="grid-item">2</button>
+                <button type="button" value="3" class="grid-item">3</button>
+
+                <button type="button" class="color-orange grid-item special" value="-">-</button>
+
+                <button type="button" value="0" class="grid-item">0</button>
+
+                <button type="button" class="decimal function grid-item color-blue dotbtn" value=".">.</button>
+                <button type="button" class="equal-sign color-orange grid-item" value="=">=</button>
+                <button type="button" class="color-orange grid-item special" value="+">+</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
